@@ -1,5 +1,7 @@
 # UMeng Service 友盟服务
 
+[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
+
 ## 支持服务
 
 * 一键登录
