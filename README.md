@@ -50,7 +50,7 @@ try {
 
 ### 推送
 
-推送参数可参考文档
+推送参数可参考文档：[友盟 - 消息推送 - API 集成文档](https://developer.umeng.com/docs/67966/detail/68343)
 
 ```php
 try {
