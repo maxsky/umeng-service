@@ -38,7 +38,7 @@ try {
         // 获取一键登录所需 App Key 及 App Secret
         env('UMENG_ONE_KEY_LOGIN_APP_KEY'), env('UMENG_ONE_KEY_LOGIN_APP_SECRET'))
         ->setPlatformKey($platformKey)
-        // 设置证书文件所在位置，需注意命名。此处在 Laravel/Lumen 框架中为：项目目录/storage/app.oklink
+        // 设置证书文件所在位置，需注意命名。此处在 Laravel/Lumen 框架中为：项目目录/storage/app/oklogin
         ->setKeyPath(storage_path('app/oklogin'))
         ->oneKeyLogin($platform, $token);
 } catch (UMengServiceException $e) {
